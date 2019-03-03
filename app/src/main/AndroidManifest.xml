@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SeekerMainActivity"></activity>
-        <activity android:name=".SeekerActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ListingPost"></activity>
+        <activity android:name=".ProviderMainActivity" />
+        <activity android:name=".SeekerPostingActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SeekerMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
